@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Qwitcher+Grypen:wght@400;700&family=Updock&display=swap"
+        rel="stylesheet">
+   <!-- animation name  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo"
+                src="https://img.freepik.com/free-vector/colorful-bird-illustration-gradient_343694-1741.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1728259200&semt=ais_hybrid"
+                alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="">Home</a></li>
+                <li class="list-items"><a class="links" href="">About</a></li>
+                <li class="list-items"><a class="links" href="">Skils</a></li>
+                <li class="list-items"><a class="links" href="">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__bounceInLeft" id="username">I'm Maria <span id="lname">Joe</span>
+                </h1>
+                <p id="user-details">This is my official portfolio website to describe all <br>
+                    Details and work experience in web developmenr</p>
+                <a id="download" href="./images/Resume sree.pdf" download>Download CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/bg-final-removebg-preview.png" alt="no image">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/businesslady-final-removebg-preview.png" alt="no image">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+
+            <div class="aboutbody">
+                <div data-aos="fade-right" class="about-image">
+                    <img class="img1" src="./images/aboutme.png" alt="no image">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, officiis magnam excepturi cum quos
+                        incidunt modi ipsa omnis nostrum perspiciatis, odio eos, doloremque quia. Odio, suscipit?
+                        Repudiandae dolore atque soluta?</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>7306713193</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>maria@gamil.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- skill -->
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skill-contents">
+                <div class="progressbars">
+                    <!-- progressbars -->
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">84%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="htmlBar baseBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">79%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="cssBar baseBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">70%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="jsBar baseBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">REACT</h3>
+                        <span class="barPercent">85%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="zoom-in-right" class="reactBar baseBar"></div>
+                    </div>
+
+                </div>
+                <div data-aos="fade-left" class="skill-image">
+                    <!-- skill image -->
+                    <img src="https://media.istockphoto.com/id/1399506394/vector/concept-of-up-skill-and-learning.jpg?s=612x612&w=0&k=20&c=_sN5jIE3OGQX-eFVcEk-Gwgne-Fy7CnfpCfHpfDvYug="
+                        alt="no image">
+                </div>
+
+            </div>
+        </section>
+        <!-- contacts -->
+        <section id="contacts">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My contacts</span>
+            </div>
+            <div class="iconcollections">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="www.linkedin.com/in/sreeragi-a-s-2689aa256" target="_blank"><i
+                            class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="www.linkedin.com/in/sreeragi-a-s-2689aa256" target="_blank"><i
+                            class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twiter -->
+                <div class="icon">
+                    <a href="www.linkedin.com/in/sreeragi-a-s-2689aa256" target="_blank">
+
+                        <i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="www.linkedin.com/in/sreeragi-a-s-2689aa256" target="_blank"><i
+                            class="fa-brands fa-instagram brands"></i></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="www.linkedin.com/in/sreeragi-a-s-2689aa256" target="_blank"><i
+                            class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="www.linkedin.com/in/sreeragi-a-s-2689aa256" target="_blank"><i
+                            class="fa-brands fa-facebook brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy;My portfolio website -October 2024 All rights reserved to &reg;Maria Joe
+            </p>
+
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-chevron-up brands"></i></a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>

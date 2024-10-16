@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:0px;
+    margin-top:0px;
+}
+.logo{
+    width: 200px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.links:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home-content{
+    margin: 13% 0px 0px 8%;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", serif;
+}
+#lname{
+    font-family: "Dancing Script", serif;
+    font-weight: 500;
+    color: orangered;
+}
+#user-details{
+    line-height: 1.5;
+}
+#download{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.home-img{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+
+}
+.group1{
+    position:absolute;
+    left: 50%;
+    height: 100%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 1s;
+}
+.home-img:hover #shape{
+bottom: 80px;
+
+}
+.home-img:hover #girl{
+    left: 40%;
+}
+#about{
+    margin: 15% 0px 0px 8%;
+}
+.sectionhead{
+    text-align: center;
+}
+.mainhead{
+    font-size: 30px;
+
+}
+.subhead{
+    font-size: 20px;
+    color: green;
+}
+.aboutbody{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+.img1{
+    width: 85%;
+}
+.aboutcontent{
+    font-size: 20px;
+    text-align: justify;
+}
+.informations{
+    margin-top: 1.3rem;
+}
+.infobox{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.infobox>span{
+    margin-left: 1rem;
+}
+#skills{
+     margin: 15% 8% 0px 8%;
+}
+.skill-contents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-top: 20px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.barHead,.barPercent{
+    font-weight: 500;
+    font-size: 0,5rem;
+}
+.baseBar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlBar{
+    background-color: orange;
+    width: 84%;
+}
+.cssBar{
+    background-color: orange;
+    width: 79%;
+}
+.jsBar{
+    background-color: orange;
+    width: 70%;
+}
+.reactBar{
+    background-color: orange;
+    width: 85%;
+}
+#contacts{
+    margin: 8% 8% 0px 8%;
+}
+.iconcollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, red, coral,brown);
+}
+.icon:hover .brands{
+    color: white;
+    /* rotate is a user defined variable  4s is the seconds */
+    animation: rotate 4s; 
+}
+/* definition of rotate */
+@keyframes rotate{
+    /* from 0% to 100%  is defined */
+            /* roatate() is the build in function */
+
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+footer{
+    margin-top: 8%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 700;
+}
+.upArrow{
+    float: right;
+    margin-top: -40px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: aliceblue;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
